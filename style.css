@@ -1,0 +1,100 @@
+@font-face {
+    font-family: 'Ink Free';
+    src: url(fonts/Inkfree.ttf) format('truetype');
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    font-family: 'Ink Free';
+    font-size: 32px;
+    color: black;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background-color: rgb(126, 126, 126);
+    border: solid 12px;
+    border-radius: 50px;
+    height: 750px;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.bg-guy  {
+    background-color: rgb(132, 132, 132);
+    box-shadow: rgba(0, 0, 0, 0.46) 0px 22px 70px 4px;
+    border: solid 6px;
+    border-radius: 50px;
+    height: 550px;
+    width: 350px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+#guy {
+    height: 340px;
+    width: 271px;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.guy-color {
+    height: 340px;
+    width: 271px;
+    position: absolute;
+    transform: translateY(-25px);
+    display: none;
+}
+
+.guy-color.active {
+    display: block;
+}
+
+.tools {
+    cursor: default;
+    height: 650px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 64px;
+    height: auto;
+}
+
+.button {
+    cursor: pointer;
+    height: 120px;
+    width: 120px;
+    padding: 20px;
+}
+
+.button:hover {
+    padding: 0;
+}
+
+h2 {
+    margin-top: 60px;
+}
+
+h2:hover {
+    cursor: pointer;
+    font-size: 36px;
+}
+
+a {
+    text-decoration: none;
+}
